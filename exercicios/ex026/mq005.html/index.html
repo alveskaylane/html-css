@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" >
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li> <a href="#">Link 01</a> </li>
+                <li> <a href="#">Link 02</a> </li>
+                <li> <a href="#">Link 03</a> </li>
+                <li> <a href="#">Link 04</a> </li>
+                <li> <a href="#">Link 05</a> </li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+         <article>
+            <h2>Testando Media Queries</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio eaque velit tempore dignissimos quis, laborum delectus, id temporibus perspiciatis adipisci repellendus eum, porro expedita nostrum quia aliquam deleniti dolore doloremque.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aut fugiat, iusto eius asperiores vel laborum ducimus cumque, omnis, reprehenderit veritatis! Beatae libero rerum quae maxime voluptate suscipit dicta nobis.
+            </p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis explicabo aliquid praesentium quibusdam odit aspernatur? Ab eius vitae esse corrupti qui exercitationem, numquam vero debitis rem cum. Quasi, at laboriosam?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iure ad eligendi culpa cupiditate sapiente sit rerum voluptatum, molestiae quaerat, animi id pariatur error facere natus voluptas? Iusto, hic tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolor rerum nemo odit dignissimos eum placeat neque, alias atque nesciunt vitae minima reiciendis. Repellat mollitia assumenda iure maxime nulla accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolorem soluta voluptatibus repellat rerum modi esse pariatur alias aliquid fuga ea dignissimos voluptates ex unde atque magni, velit est error.
+            </p>
+         </article>
+    </main>
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+           } else {
+                itens.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
